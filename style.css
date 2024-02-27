@@ -130,3 +130,33 @@ li:nth-child(4) {
 #btn2 {
     cursor: pointer;
 }
+
+.container {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer {
+    font-size: 12px;
+  }
+  .info {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .info p {
+    margin: 3px;
+  }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-image: linear-gradient(to bottom, #ffecd2 0%, #fcd69f 100%);
+}
