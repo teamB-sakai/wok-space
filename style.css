@@ -1,5 +1,132 @@
-.container {
-    display:flex;
-    flex-flow: column;
+body {
+    background-image: url(image/background.png);
+    background-repeat: repeat;
+    background-size: 100% auto;
+}
+
+main {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+header {
+    text-align: center;
+}
+
+h1,h2 {
+    margin: 0 auto;
+    font-size: calc(1rem + 1vw);
+    font-family: 'Yuji Syuku', serif;
+    color: #293646;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction:column-reverse;
     align-items: center;
+}
+
+.section1 a {
+    color: white;
+    font-family: 'Yuji Syuku', serif;
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    background-color: #dc3545;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 100vh;
+}
+
+.section1 a:hover {
+    background-color: #528000;
+}
+
+.section1:hover + .section2 {
+    animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+    0% {transform: rotate(0);}
+    16% {transform: rotate(12deg);}
+    32% {transform: rotate(-10deg);}
+    48% {transform: rotate(8deg);}
+    64% {transform: rotate(-6deg);}
+    80% {transform: rotate(4deg);}
+    96% {transform: rotate(-2deg);}
+    100% {transform: rotate(0deg);}
+}
+
+footer{
+    padding-top: 2em;
+    text-align: center;
+}
+
+.footer1{
+    display: inline-block;
+}
+
+img {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    height: 15rem;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li:nth-child(1) {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    font-family: 'Yuji Syuku', serif;
+    padding-bottom: 30px;
+}
+
+li:nth-child(2) {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-family: 'Yuji Syuku', serif;
+    padding-bottom: 30px;
+}
+
+li:nth-child(3) {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    font-family: 'Yuji Syuku', serif;
+    padding-bottom: 30px;
+}
+
+li:nth-child(4) {
+    list-style: none;
+    padding: 0;
+    clear: both;
+    font-size: 0.8em;
+    color: black;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.footer1 p:nth-child(1){
+    margin: 0;
+    padding: 0 1em 0 1em;
+}
+
+.footer1 a:nth-child(1) {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+    font-family: 'Yuji Syuku', serif;
+}
+
+#btn2 {
+    cursor: pointer;
 }
