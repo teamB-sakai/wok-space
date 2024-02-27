@@ -49,11 +49,7 @@ section {
     border-radius: 100vh;
 }
 
-.section1 a:hover {
-    background-color: #528000;
-}
-
-.section1:hover+.section2 {
+.section1:hover + .section2 {
     animation: shake 0.4s ease;
 }
 
@@ -68,6 +64,7 @@ section {
     100% {transform: rotate(0deg);}
 }
 
+
 footer {
     padding-top: 2em;
     text-align: center;
@@ -77,7 +74,7 @@ footer {
     display: inline-block;
 }
 
-img {
+.img1 {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
     height: 15rem;
@@ -198,7 +195,7 @@ footer {
 .picture {
     max-width: 60%;
     height: auto;
-    margin: 10px 0;
+    margin: 10x 0;
     border-radius: 5px;
 }
 
