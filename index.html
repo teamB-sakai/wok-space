@@ -23,100 +23,26 @@
       <div class="section2">
         <img class="img1" src="image/Omikuji.png" alt="おみくじイメージ画像">
       </div>
-      <div id="result"></div>
+      <div id="result">
+        <a href="page/page1.html">大吉</a>
+        <a href="page/page2.html">中吉</a>
+        <a href="page/page3.html">小吉</a>
+        <a href="page/page4.html">末吉</a>
+      </div>
     </section>
     <footer>
       <div class="info">
-        <a href="about.html">
+        <a href="others/about.html">
           <p>このおみくじについて</p>
         </a>
         <p>|</p>
-        <a href="developer.html">
+        <a href="others/developer.html">
           <p>開発者一覧</p>
         </a>
       </div>
       <p>＠ソフトウェア開発みくじ</p>
     </footer>
   </main>
-
-  <!-- 大吉 -->
-  <div class="omikuji-page" id="page1">
-    <h5 class="omikuji-title">ソフトウェア開発みくじ</h5>
-    <hr class="red-line">
-    <h1 class="fortune-text" id="fortune-text">大吉</h1>
-    <img class="picture" src="image/dance_yorokobi_mai_woman.png">
-    <hr class="red-line">
-    <p class="fortune-explanation" id="fortune-explanation">
-      リリースしたソフトウェアにバグが見つかりますが、再現性が高いためユーザーも上司も誰ひとり気付かないでしょう。見なかったことにするのが吉。</p>
-    <hr class="red-line">
-    <p class="lucky-language">✿ ラッキー言語 ✿</p>
-    <p class="lucky-language" id="lucky-language">Java</p>
-    <hr class="red-line">
-    <p class="lucky-database">✿ ラッキーデータベース ✿</p>
-    <p class="lucky-database" id="lucky-database">SQL Server</p>
-    <hr class="red-line">
-    <p class="lucky-editor">✿ ラッキーエディタ ✿</p>
-    <p class="lucky-editor" id="lucky-editor">Atom</p>
-    <button id="repeat-omikuji" onclick="hidden()">もう一度おみくじを引く</button>
-  </div>
-  <!-- 中吉 -->
-  <div class="omikuji-page" id="page2">
-    <h5 class="omikuji-title">ソフトウェア開発みくじ</h5>
-    <hr class="red-line">
-    <h1 class="fortune-text" id="fortune-text">中吉</h1>
-    <img class="picture" src="image/necchusyou_face_girl2.png">
-    <hr class="red-line">
-    <p class="fortune-explanation" id="fortune-explanation">Gitでコンフリクトが発生しますが、今回はうまく解消できるでしょう。今回は。次回は・・・</p>
-    <hr class="red-line">
-    <p class="lucky-language">✿ ラッキー言語 ✿</p>
-    <p class="lucky-language" id="lucky-language">C#</p>
-    <hr class="red-line">
-    <p class="lucky-database">✿ ラッキーデータベース ✿</p>
-    <p class="lucky-database" id="lucky-database">PatgreSQL</p>
-    <hr class="red-line">
-    <p class="lucky-editor">✿ ラッキーエディタ ✿</p>
-    <p class="lucky-editor" id="lucky-editor">nano</p>
-    <button id="repeat-omikuji" onclick="hidden()">もう一度おみくじを引く</button>
-  </div>
-  <!-- 小吉 -->
-  <div class="omikuji-page" id="page3">
-    <h5 class="omikuji-title">ソフトウェア開発みくじ</h5>
-    <hr class="red-line">
-    <img class="picture" src="image/hyoujou_text_man_shikushiku.png">
-    <h1 class="fortune-text" id="fortune-text">小吉</h1>
-    <hr class="red-line">
-    <p class="fortune-explanation" id="fortune-explanation">
-      リリース前のソフトウェアにバグが見つかります。貴方のお勤め先が上流の企業ならばそれほど大きな問題になりませんが、三次請けよりも下流の場合はご愁傷様でございます。</p>
-    <hr class="red-line">
-    <p class="lucky-language">✿ ラッキー言語 ✿</p>
-    <p class="lucky-language" id="lucky-language">JavaScript</p>
-    <hr class="red-line">
-    <p class="lucky-database">✿ ラッキーデータベース ✿</p>
-    <p class="lucky-database" id="lucky-database">My SQL</p>
-    <hr class="red-line">
-    <p class="lucky-editor">✿ ラッキーエディタ ✿</p>
-    <p class="lucky-editor" id="lucky-editor">Atom</p>
-    <button id="repeat-omikuji" onclick="hidden()">もう一度おみくじを引く</button>
-  </div>
-  <!-- 末吉 -->
-  <div class="omikuji-page" id="page4">
-    <h5 class="omikuji-title">ソフトウェア開発みくじ</h5>
-    <hr class="red-line">
-    <img class="picture" src="image/tobotobo_aruku_woman.png">
-    <h1 class="fortune-text" id="fortune-text">末吉</h1>
-    <hr class="red-line">
-    <p class="fortune-explanation" id="fortune-explanation">関わっているプロジェクトから何だか香ばしい匂いがします。炎上する前になんとか逃げるが吉。</p>
-    <hr class="red-line">
-    <p class="lucky-language">✿ ラッキー言語 ✿</p>
-    <p class="lucky-language" id="lucky-language">Ruby</p>
-    <hr class="red-line">
-    <p class="lucky-database">✿ ラッキーデータベース ✿</p>
-    <p class="lucky-database" id="lucky-database">SQL Server</p>
-    <hr class="red-line">
-    <p class="lucky-editor">✿ ラッキーエディタ ✿</p>
-    <p class="lucky-editor" id="lucky-editor">Visual Studio Code</p>
-    <button id="repeat-omikuji" onclick="hidden()">もう一度おみくじを引く</button>
-  </div>
 </body>
 <script src="main.js"></script>
 
