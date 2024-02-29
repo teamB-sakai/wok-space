@@ -49,6 +49,10 @@ section {
     border-radius: 100vh;
 }
 
+.section1 a:hover {
+    background-color: #487e02;
+}
+
 .section1:hover + .section2 {
     animation: shake 0.4s ease;
 }
